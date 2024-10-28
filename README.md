@@ -82,25 +82,34 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # Proses Cloning dan Instalasi
 **1. Clone Repository**
 Untuk meng-clone repository ini, buka terminal dan jalankan perintah berikut:
-
+```bash
 git clone https://github.com/username/pengaduanSiswa.git
+```
 
 **2. Clone Repository**
 Setelah proses cloning selesai, ubah nama folder menjadi pengaduanSiswa1:
+```bash
 mv pengaduanSiswa pengaduanSiswa1
+```
 
 **3. Konfigurasi .env**
 Jika file .env berbentuk .env.example maka ubah dengan .env lalu jalankan perintah
+```bash
 php artisan migrate
+```
 
 **4. Instalasi dependensi**
 Instal seluruh dependensi aplikasi yang diperlukan untuk backend dan frontend.
+```bash
 composer install
 npm install
+```
 
 **5. Generate App Key**
 Generate app key untuk Laravel:
+```bash
 php artisan key:generate
+```
 
 **6. Menjalankan Aplikasi**
 Jalankan aplikasi menggunakan perintah berikut:
