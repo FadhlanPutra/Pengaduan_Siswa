@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!--- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -63,4 +63,48 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). --->
+
+
+# Pengaduan Siswa
+
+# Deskripsi
+**Pengaduan Siswa** adalah sebuah aplikasi web yang dirancang untuk memfasilitasi siswa dalam melaporkan pengaduan atau masalah yang mereka hadapi di lingkungan sekolah. Aplikasi ini memungkinkan siswa untuk dengan mudah menyampaikan keluhan secara online yang kemudian dapat direspon oleh pihak sekolah dengan lebih cepat dan terstruktur.
+
+# Fitur-Fitur
+- **Autentikasi Siswa:** Setiap siswa dapat login untuk melaporkan pengaduan secara aman.
+- **Formulir Pengaduan:** Fitur form untuk pengisian keluhan lengkap dengan kategori masalah dan deskripsi.
+- **Dashboard Pengaduan:** Tampilan daftar pengaduan siswa yang menampilkan status terbaru (diterima, diproses, atau selesai).
+- **Respon Pengaduan:** Admin sekolah dapat memberikan respons pada setiap pengaduan siswa.
+- **Notifikasi Status:** Siswa mendapatkan notifikasi ketika pengaduan mereka telah direspon atau diproses lebih lanjut.
+- **Pengaturan Profil:** Siswa dan admin dapat mengubah informasi profil masing-masing.
+
+# Proses Cloning dan Instalasi
+**1. Clone Repository**
+Untuk meng-clone repository ini, buka terminal dan jalankan perintah berikut:
+
+git clone https://github.com/username/pengaduanSiswa.git
+
+**2. Clone Repository**
+Setelah proses cloning selesai, ubah nama folder menjadi pengaduanSiswa1:
+mv pengaduanSiswa pengaduanSiswa1
+
+**3. Konfigurasi .env**
+Jika file .env berbentuk .env.example maka ubah dengan .env lalu jalankan perintah
+php artisan migrate
+
+**4. Instalasi dependensi**
+Instal seluruh dependensi aplikasi yang diperlukan untuk backend dan frontend.
+composer install
+npm install
+
+**5. Generate App Key**
+Generate app key untuk Laravel:
+php artisan key:generate
+
+**6. Menjalankan Aplikasi**
+Jalankan aplikasi menggunakan perintah berikut:
+```bash
+php artisan serve
+npm run dev
+
